@@ -5,7 +5,7 @@ Backup and Restore BCS-460, BCS-462, and BCS-482 brew controller devices running
 
 ## Getting Started
 
-Check it out in action at [http://lawn-chair.github.io/bcs-backup](http://lawn-chair.github.io/bcs-backup)
+Check it out in action at [https://morganofslo.github.io/bcs-backup](https://morganofslo.github.io/bcs-backup)
 
 ## Usage Notes
 
@@ -75,7 +75,7 @@ npm start       # Serves site/ on http://localhost:3000
 
 ### Deploying to GitHub Pages
 
-```bash
-npm run deploy
-```
+Deployment happens automatically via GitHub Actions when you push to the `master` branch.
+
+To enable, go to your repo's Settings → Pages → Source and select "GitHub Actions".
 
