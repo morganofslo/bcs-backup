@@ -64,3 +64,7 @@ After building, start a local server:
 npm start       # Serves site/ on http://localhost:3000
 ```
 
+## Screenshot
+
+![BCS Backup Utility](backup_screenshot.png)
+
