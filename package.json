@@ -1,17 +1,22 @@
 {
   "name": "bcs-backup",
   "version": "0.1.0",
-  "dependencies": {},
+  "scripts": {
+    "build": "grunt",
+    "watch": "grunt watch",
+    "dist": "grunt dist",
+    "start": "serve site",
+    "deploy": "grunt gh-pages"
+  },
   "devDependencies": {
-    "docker": "~1.0.0",
-    "grunt": "~1.0.1",
+    "grunt": "~1.6.1",
+    "grunt-contrib-concat": "~1.0.1",
     "grunt-contrib-jshint": "~1.1.0",
     "grunt-contrib-pug": "~1.0.0",
     "grunt-contrib-stylus": "~1.2.0",
-    "grunt-contrib-watch": "~1.0.0",
     "grunt-contrib-uglify": "~2.0.0",
-    "grunt-contrib-concat": "~1.0.1",
-    "grunt-github-pages": "~0.0.4"
-   }
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-github-pages": "~0.0.4",
+    "serve": "^14.2.5"
+  }
 }
-

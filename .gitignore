@@ -3,3 +3,5 @@ site/*.html
 site/js
 site/css
 _site
+
+CLAUDE.md
