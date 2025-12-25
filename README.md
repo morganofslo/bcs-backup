@@ -1,14 +1,11 @@
 bcs-backup
 ==========
 
-Backup and Restore BCS-460, BCS-462, and BCS-482 brew controller devices running 4.x firmware.  
-
-## Getting Started
-
-Check it out in action at [https://morganofslo.github.io/bcs-backup](https://morganofslo.github.io/bcs-backup)
+Backup and Restore BCS-460, BCS-462, and BCS-482 brew controller devices running 4.x firmware.
 
 ## Usage Notes
 
+- This utility must be run locally (not from a hosted HTTPS site like github pages) to communicate with your BCS device over HTTP.
 - **Authentication must be disabled** on your BCS device for this utility to work. The browser's CORS restrictions prevent authenticated requests from working properly.
 - After backup/restore, you can re-enable authentication on your BCS.
 
@@ -59,12 +56,6 @@ npx grunt
 npx grunt watch
 ```
 
-### Production Build
-
-```bash
-npm run dist    # Build with minified JavaScript
-```
-
 ### Serving Locally
 
 After building, start a local server:
@@ -72,10 +63,4 @@ After building, start a local server:
 ```bash
 npm start       # Serves site/ on http://localhost:3000
 ```
-
-### Deploying to GitHub Pages
-
-Deployment happens automatically via GitHub Actions when you push to the `master` branch.
-
-To enable, go to your repo's Settings → Pages → Source and select "GitHub Actions".
 
